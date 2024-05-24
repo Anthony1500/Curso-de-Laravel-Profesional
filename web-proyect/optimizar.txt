@@ -1,0 +1,24 @@
+php artisan cache:clear          
+php artisan config:clear        
+php artisan config:cache         
+php artisan route:clear         
+php artisan route:cache         
+php artisan view:clear           
+php artisan view:cache           
+php artisan event:clear          
+php artisan event:cache          
+php artisan optimize:clear       
+
+
+Que son cada uno
+
+php artisan cache:clear          # Limpiar caché de la aplicación
+php artisan config:clear         # Limpiar caché de configuración
+php artisan config:cache         # Optimizar caché de configuración
+php artisan route:clear          # Limpiar caché de rutas
+php artisan route:cache          # Optimizar caché de rutas
+php artisan view:clear           # Limpiar caché de vistas
+php artisan view:cache           # Optimizar vistas
+php artisan event:clear          # Limpiar caché de eventos
+php artisan event:cache          # Optimizar caché de eventos
+php artisan optimize:clear       # Limpiar todas las cachés
